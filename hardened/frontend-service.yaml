@@ -9,7 +9,7 @@ spec:
   type: NodePort
   ports:
   - port: 80
-    nodePort: 30082
+    nodePort: 30083
   selector:
     app: guestbook
     tier: frontend
