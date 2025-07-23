@@ -1,0 +1,8 @@
+helm:
+  chart: opentelemetry-collector
+  repo: https://open-telemetry.github.io/opentelemetry-helm-charts
+  version: 0.78.0  # ✅ You can check latest with `helm search repo`
+  releaseName: otel-collector
+  valuesFiles:
+    - values.yaml
+
